@@ -22,18 +22,18 @@ let lastName = "Stark";
 
 alert(firstName);
 alert(lastName);
-let firstName = "John";
-let lastName = "Snow";
+firstName = "John";
+lastName = "Snow";
 
 alert(firstName + lastName);
 
-const fullName = firstName + " " + lastName
+const fullName = firstName + " " + lastName;
 
 let name, newUser, isAdmin;
 
-let name = "Shruthisagar";
-let newUser = "name";
-let isAdmin = true;
+name = "Shruthisagar";
+newUser = name;
+isAdmin = true;
 
 alert(name);
 alert(newUser);
@@ -49,10 +49,10 @@ var wiseMan = "Tyrion Lannister";
 // Declare a variable named `oddNumber` and assign a value `57`.
 // Reassign the value of `oddNumber` to 61
 
-var wiseMan = "Samwell Tarly";
-var userName = "Lysa Arryn";
-var oddNumber = 57;
-var oddNumber = 61;
+wiseMan = "Samwell Tarly";
+let userName = "Lysa Arryn";
+let oddNumber = 57;
+oddNumber = 61;
 
 // Mathematical Operation
 
@@ -65,7 +65,8 @@ let amount = 4280;
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
 
-var reducedAmount = amount-24;
-var addedAmount = amount+24;
-var multipleAmount = amount*7;
-var dividedAmount = amount/57
+
+let reducedAmount = amount - 24;
+let addedAmount = amount + 24;
+let multipleAmount = amount * 7;
+let dividedAmount = amount / 57
