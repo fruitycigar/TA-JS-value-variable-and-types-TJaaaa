@@ -38,9 +38,9 @@ alert(`The sum of ${num1} and ${num2} is ${num1 + num2}.`)
     Profession: [userProfession]` (it should be in three different lines)
 */
 
-prompt(userName = "What is your name?");
-prompt(userProfession = "What is your profession?");
-confirm(isAdult = "Are you an adult?");
+let userName = prompt("What is your name?");
+let userProfession = prompt("What is your profession?");
+let isAdult = confirm("Are you an adult?");
 alert(`I am ${userName} a ${userProfession}.`);
 console.log(`I am ${userName} a ${userProfession}.`);
 alert(`Username: ${userName}
@@ -62,10 +62,10 @@ Profession: ${userProfession}`)
   - Log using console.log [numA * numB]
 */
 
-prompt(Number(numA) = "Give me a number.");
-prompt(Number(numB) = "Give me another number.");
+let numA = prompt("Give me a number.");
+let numB = prompt("Give me another number.");
 
-alert(`${numA + numB}`);
+alert(`${Number(numA) + Number(numB)}`);
 alert(`${numA - numB}`);
 alert(`${numA * numB}`);
 
